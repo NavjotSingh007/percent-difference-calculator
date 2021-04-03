@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  margin: 2% 10%;
+}
+.App-Heading {
+  margin-bottom: 50px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.inputFieldChangeByApp {
+  border-color: orange;
 }
 
 @media (prefers-reduced-motion: no-preference) {
