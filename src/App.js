@@ -59,6 +59,18 @@ function App() {
       <h1 className="App-Heading">Percent Increase Calculator</h1>
       <div>
         <form>
+        <div class="mb-3">
+            <label for="higherNumber" class="form-label">
+              Higher number
+            </label>
+            <input
+              type="number"
+              class="form-control"
+              id="higherNumber"
+              value={higherNumber}
+              onInput={handleHigherNumberInputEvent}
+            />
+          </div>
           <div class="mb-3">
             <label for="lowerNumber" class="form-label">
               Lower number
@@ -69,18 +81,6 @@ function App() {
               id="lowerNumber"
               value={lowerNumber}
               onInput={handleLowerNumberInputEvent}
-            />
-          </div>
-          <div class="mb-3">
-            <label for="higherNumber" class="form-label">
-              Higher number
-            </label>
-            <input
-              type="number"
-              class="form-control"
-              id="higherNumber"
-              value={higherNumber}
-              onInput={handleHigherNumberInputEvent}
             />
           </div>
           <div class="mb-3">
