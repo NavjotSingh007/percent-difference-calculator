@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="App-Heading">Percent Increase Calculator</h1>
+      <h1 className="App-Heading">Percent Difference Calculator</h1>
       <div>
         <form>
         <div class="mb-3">
